@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DAE1BF9B18F018E4E25D698 /* Pods_AppMonet_Bidder_IOS_Sample_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1BA93506834816435DAE63 /* Pods_AppMonet_Bidder_IOS_Sample_AppTests.framework */; };
+		820009EB241ABFA50000660A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820009EA241ABFA50000660A /* AppDelegate.swift */; };
+		820009EF241ABFA50000660A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820009EE241ABFA50000660A /* ViewController.swift */; };
+		820009F2241ABFA50000660A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820009F0241ABFA50000660A /* Main.storyboard */; };
+		820009F5241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 820009F3241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodeld */; };
+		820009F7241ABFA70000660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820009F6241ABFA70000660A /* Assets.xcassets */; };
+		820009FA241ABFA70000660A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820009F8241ABFA70000660A /* LaunchScreen.storyboard */; };
+		82000A05241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82000A04241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppTests.swift */; };
+		82000A10241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82000A0F241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppUITests.swift */; };
+		DE5F156643746996D4616412 /* Pods_AppMonet_Bidder_IOS_Sample_App_AppMonet_Bidder_IOS_Sample_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B79B2C8EF71DF1DEF6BB6E /* Pods_AppMonet_Bidder_IOS_Sample_App_AppMonet_Bidder_IOS_Sample_AppUITests.framework */; };
+		E1DA08DF46E5BDAEE6568733 /* Pods_AppMonet_Bidder_IOS_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55B586FC5F2B38D55C61537 /* Pods_AppMonet_Bidder_IOS_Sample_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82000A01241ABFA70000660A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820009DF241ABFA50000660A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820009E6241ABFA50000660A;
+			remoteInfo = "AppMonet Bidder IOS Sample App";
+		};
+		82000A0C241ABFA70000660A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820009DF241ABFA50000660A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820009E6241ABFA50000660A;
+			remoteInfo = "AppMonet Bidder IOS Sample App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118959D6AB0D7ECA7EAC1ECD /* Pods-AppMonet Bidder IOS Sample AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMonet Bidder IOS Sample AppTests.debug.xcconfig"; path = "Target Support Files/Pods-AppMonet Bidder IOS Sample AppTests/Pods-AppMonet Bidder IOS Sample AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		820009E7241ABFA50000660A /* AppMonet Bidder IOS Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppMonet Bidder IOS Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820009EA241ABFA50000660A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		820009EE241ABFA50000660A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		820009F1241ABFA50000660A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		820009F4241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppMonet_Bidder_IOS_Sample_App.xcdatamodel; sourceTree = "<group>"; };
+		820009F6241ABFA70000660A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		820009F9241ABFA70000660A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		820009FB241ABFA70000660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82000A00241ABFA70000660A /* AppMonet Bidder IOS Sample AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppMonet Bidder IOS Sample AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82000A04241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMonet_Bidder_IOS_Sample_AppTests.swift; sourceTree = "<group>"; };
+		82000A06241ABFA70000660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82000A0B241ABFA70000660A /* AppMonet Bidder IOS Sample AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppMonet Bidder IOS Sample AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82000A0F241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMonet_Bidder_IOS_Sample_AppUITests.swift; sourceTree = "<group>"; };
+		82000A11241ABFA70000660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B79B2C8EF71DF1DEF6BB6E /* Pods_AppMonet_Bidder_IOS_Sample_App_AppMonet_Bidder_IOS_Sample_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMonet_Bidder_IOS_Sample_App_AppMonet_Bidder_IOS_Sample_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1BA93506834816435DAE63 /* Pods_AppMonet_Bidder_IOS_Sample_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMonet_Bidder_IOS_Sample_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36EF445AACAD48582C666EA /* Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.release.xcconfig"; path = "Target Support Files/Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests/Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6472486D85CABD7C731F2FF /* Pods-AppMonet Bidder IOS Sample AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMonet Bidder IOS Sample AppTests.release.xcconfig"; path = "Target Support Files/Pods-AppMonet Bidder IOS Sample AppTests/Pods-AppMonet Bidder IOS Sample AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6F94A4F97923A75A1F1638F /* Pods-AppMonet Bidder IOS Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMonet Bidder IOS Sample App.release.xcconfig"; path = "Target Support Files/Pods-AppMonet Bidder IOS Sample App/Pods-AppMonet Bidder IOS Sample App.release.xcconfig"; sourceTree = "<group>"; };
+		D1FBBC65B03066D363D651D1 /* Pods-AppMonet Bidder IOS Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMonet Bidder IOS Sample App.debug.xcconfig"; path = "Target Support Files/Pods-AppMonet Bidder IOS Sample App/Pods-AppMonet Bidder IOS Sample App.debug.xcconfig"; sourceTree = "<group>"; };
+		E1055D97FA3437250545F08B /* Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests/Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E55B586FC5F2B38D55C61537 /* Pods_AppMonet_Bidder_IOS_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMonet_Bidder_IOS_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820009E4241ABFA50000660A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DA08DF46E5BDAEE6568733 /* Pods_AppMonet_Bidder_IOS_Sample_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820009FD241ABFA70000660A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAE1BF9B18F018E4E25D698 /* Pods_AppMonet_Bidder_IOS_Sample_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82000A08241ABFA70000660A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5F156643746996D4616412 /* Pods_AppMonet_Bidder_IOS_Sample_App_AppMonet_Bidder_IOS_Sample_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53562D7D8062DF17CABCC7AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E55B586FC5F2B38D55C61537 /* Pods_AppMonet_Bidder_IOS_Sample_App.framework */,
+				A9B79B2C8EF71DF1DEF6BB6E /* Pods_AppMonet_Bidder_IOS_Sample_App_AppMonet_Bidder_IOS_Sample_AppUITests.framework */,
+				BA1BA93506834816435DAE63 /* Pods_AppMonet_Bidder_IOS_Sample_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		820009DE241ABFA50000660A = {
+			isa = PBXGroup;
+			children = (
+				820009E9241ABFA50000660A /* AppMonet Bidder IOS Sample App */,
+				82000A03241ABFA70000660A /* AppMonet Bidder IOS Sample AppTests */,
+				82000A0E241ABFA70000660A /* AppMonet Bidder IOS Sample AppUITests */,
+				820009E8241ABFA50000660A /* Products */,
+				84277BA6828BF03D4E08A1EF /* Pods */,
+				53562D7D8062DF17CABCC7AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		820009E8241ABFA50000660A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820009E7241ABFA50000660A /* AppMonet Bidder IOS Sample App.app */,
+				82000A00241ABFA70000660A /* AppMonet Bidder IOS Sample AppTests.xctest */,
+				82000A0B241ABFA70000660A /* AppMonet Bidder IOS Sample AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820009E9241ABFA50000660A /* AppMonet Bidder IOS Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				820009EA241ABFA50000660A /* AppDelegate.swift */,
+				820009EE241ABFA50000660A /* ViewController.swift */,
+				820009F0241ABFA50000660A /* Main.storyboard */,
+				820009F6241ABFA70000660A /* Assets.xcassets */,
+				820009F8241ABFA70000660A /* LaunchScreen.storyboard */,
+				820009FB241ABFA70000660A /* Info.plist */,
+				820009F3241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodeld */,
+			);
+			path = "AppMonet Bidder IOS Sample App";
+			sourceTree = "<group>";
+		};
+		82000A03241ABFA70000660A /* AppMonet Bidder IOS Sample AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				82000A04241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppTests.swift */,
+				82000A06241ABFA70000660A /* Info.plist */,
+			);
+			path = "AppMonet Bidder IOS Sample AppTests";
+			sourceTree = "<group>";
+		};
+		82000A0E241ABFA70000660A /* AppMonet Bidder IOS Sample AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82000A0F241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppUITests.swift */,
+				82000A11241ABFA70000660A /* Info.plist */,
+			);
+			path = "AppMonet Bidder IOS Sample AppUITests";
+			sourceTree = "<group>";
+		};
+		84277BA6828BF03D4E08A1EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1FBBC65B03066D363D651D1 /* Pods-AppMonet Bidder IOS Sample App.debug.xcconfig */,
+				C6F94A4F97923A75A1F1638F /* Pods-AppMonet Bidder IOS Sample App.release.xcconfig */,
+				E1055D97FA3437250545F08B /* Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.debug.xcconfig */,
+				C36EF445AACAD48582C666EA /* Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.release.xcconfig */,
+				118959D6AB0D7ECA7EAC1ECD /* Pods-AppMonet Bidder IOS Sample AppTests.debug.xcconfig */,
+				C6472486D85CABD7C731F2FF /* Pods-AppMonet Bidder IOS Sample AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820009E6241ABFA50000660A /* AppMonet Bidder IOS Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82000A14241ABFA70000660A /* Build configuration list for PBXNativeTarget "AppMonet Bidder IOS Sample App" */;
+			buildPhases = (
+				51B8756BA90FC454D316C1B0 /* [CP] Check Pods Manifest.lock */,
+				820009E3241ABFA50000660A /* Sources */,
+				820009E4241ABFA50000660A /* Frameworks */,
+				820009E5241ABFA50000660A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppMonet Bidder IOS Sample App";
+			productName = "AppMonet Bidder IOS Sample App";
+			productReference = 820009E7241ABFA50000660A /* AppMonet Bidder IOS Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		820009FF241ABFA70000660A /* AppMonet Bidder IOS Sample AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82000A17241ABFA70000660A /* Build configuration list for PBXNativeTarget "AppMonet Bidder IOS Sample AppTests" */;
+			buildPhases = (
+				3B8F846F9EF84692B922AD69 /* [CP] Check Pods Manifest.lock */,
+				820009FC241ABFA70000660A /* Sources */,
+				820009FD241ABFA70000660A /* Frameworks */,
+				820009FE241ABFA70000660A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82000A02241ABFA70000660A /* PBXTargetDependency */,
+			);
+			name = "AppMonet Bidder IOS Sample AppTests";
+			productName = "AppMonet Bidder IOS Sample AppTests";
+			productReference = 82000A00241ABFA70000660A /* AppMonet Bidder IOS Sample AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82000A0A241ABFA70000660A /* AppMonet Bidder IOS Sample AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82000A1A241ABFA70000660A /* Build configuration list for PBXNativeTarget "AppMonet Bidder IOS Sample AppUITests" */;
+			buildPhases = (
+				2F1CDBBFAC9E864498CD73ED /* [CP] Check Pods Manifest.lock */,
+				82000A07241ABFA70000660A /* Sources */,
+				82000A08241ABFA70000660A /* Frameworks */,
+				82000A09241ABFA70000660A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82000A0D241ABFA70000660A /* PBXTargetDependency */,
+			);
+			name = "AppMonet Bidder IOS Sample AppUITests";
+			productName = "AppMonet Bidder IOS Sample AppUITests";
+			productReference = 82000A0B241ABFA70000660A /* AppMonet Bidder IOS Sample AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820009DF241ABFA50000660A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Monet;
+				TargetAttributes = {
+					820009E6241ABFA50000660A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					820009FF241ABFA70000660A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 820009E6241ABFA50000660A;
+					};
+					82000A0A241ABFA70000660A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 820009E6241ABFA50000660A;
+					};
+				};
+			};
+			buildConfigurationList = 820009E2241ABFA50000660A /* Build configuration list for PBXProject "AppMonet Bidder IOS Sample App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 820009DE241ABFA50000660A;
+			productRefGroup = 820009E8241ABFA50000660A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820009E6241ABFA50000660A /* AppMonet Bidder IOS Sample App */,
+				820009FF241ABFA70000660A /* AppMonet Bidder IOS Sample AppTests */,
+				82000A0A241ABFA70000660A /* AppMonet Bidder IOS Sample AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820009E5241ABFA50000660A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820009FA241ABFA70000660A /* LaunchScreen.storyboard in Resources */,
+				820009F7241ABFA70000660A /* Assets.xcassets in Resources */,
+				820009F2241ABFA50000660A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820009FE241ABFA70000660A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82000A09241ABFA70000660A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F1CDBBFAC9E864498CD73ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8F846F9EF84692B922AD69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMonet Bidder IOS Sample AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B8756BA90FC454D316C1B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMonet Bidder IOS Sample App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820009E3241ABFA50000660A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820009EF241ABFA50000660A /* ViewController.swift in Sources */,
+				820009EB241ABFA50000660A /* AppDelegate.swift in Sources */,
+				820009F5241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820009FC241ABFA70000660A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82000A05241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82000A07241ABFA70000660A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82000A10241ABFA70000660A /* AppMonet_Bidder_IOS_Sample_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82000A02241ABFA70000660A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820009E6241ABFA50000660A /* AppMonet Bidder IOS Sample App */;
+			targetProxy = 82000A01241ABFA70000660A /* PBXContainerItemProxy */;
+		};
+		82000A0D241ABFA70000660A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820009E6241ABFA50000660A /* AppMonet Bidder IOS Sample App */;
+			targetProxy = 82000A0C241ABFA70000660A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		820009F0241ABFA50000660A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820009F1241ABFA50000660A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		820009F8241ABFA70000660A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820009F9241ABFA70000660A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82000A12241ABFA70000660A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82000A13241ABFA70000660A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82000A15241ABFA70000660A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FBBC65B03066D363D651D1 /* Pods-AppMonet Bidder IOS Sample App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 476957ZC9J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "AppMonet Bidder IOS Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monet.sample.bidder.AppMonet-Bidder-IOS-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82000A16241ABFA70000660A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F94A4F97923A75A1F1638F /* Pods-AppMonet Bidder IOS Sample App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 476957ZC9J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "AppMonet Bidder IOS Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monet.sample.bidder.AppMonet-Bidder-IOS-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82000A18241ABFA70000660A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118959D6AB0D7ECA7EAC1ECD /* Pods-AppMonet Bidder IOS Sample AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 476957ZC9J;
+				INFOPLIST_FILE = "AppMonet Bidder IOS Sample AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monet.sample.bidder.AppMonet-Bidder-IOS-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMonet Bidder IOS Sample App.app/AppMonet Bidder IOS Sample App";
+			};
+			name = Debug;
+		};
+		82000A19241ABFA70000660A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6472486D85CABD7C731F2FF /* Pods-AppMonet Bidder IOS Sample AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 476957ZC9J;
+				INFOPLIST_FILE = "AppMonet Bidder IOS Sample AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monet.sample.bidder.AppMonet-Bidder-IOS-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMonet Bidder IOS Sample App.app/AppMonet Bidder IOS Sample App";
+			};
+			name = Release;
+		};
+		82000A1B241ABFA70000660A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1055D97FA3437250545F08B /* Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 476957ZC9J;
+				INFOPLIST_FILE = "AppMonet Bidder IOS Sample AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monet.sample.bidder.AppMonet-Bidder-IOS-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppMonet Bidder IOS Sample App";
+			};
+			name = Debug;
+		};
+		82000A1C241ABFA70000660A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36EF445AACAD48582C666EA /* Pods-AppMonet Bidder IOS Sample App-AppMonet Bidder IOS Sample AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 476957ZC9J;
+				INFOPLIST_FILE = "AppMonet Bidder IOS Sample AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monet.sample.bidder.AppMonet-Bidder-IOS-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppMonet Bidder IOS Sample App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820009E2241ABFA50000660A /* Build configuration list for PBXProject "AppMonet Bidder IOS Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82000A12241ABFA70000660A /* Debug */,
+				82000A13241ABFA70000660A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82000A14241ABFA70000660A /* Build configuration list for PBXNativeTarget "AppMonet Bidder IOS Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82000A15241ABFA70000660A /* Debug */,
+				82000A16241ABFA70000660A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82000A17241ABFA70000660A /* Build configuration list for PBXNativeTarget "AppMonet Bidder IOS Sample AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82000A18241ABFA70000660A /* Debug */,
+				82000A19241ABFA70000660A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82000A1A241ABFA70000660A /* Build configuration list for PBXNativeTarget "AppMonet Bidder IOS Sample AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82000A1B241ABFA70000660A /* Debug */,
+				82000A1C241ABFA70000660A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		820009F3241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				820009F4241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodel */,
+			);
+			currentVersion = 820009F4241ABFA50000660A /* AppMonet_Bidder_IOS_Sample_App.xcdatamodel */;
+			path = AppMonet_Bidder_IOS_Sample_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 820009DF241ABFA50000660A /* Project object */;
+}
