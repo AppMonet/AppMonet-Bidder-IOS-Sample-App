@@ -12,18 +12,18 @@ import AppMonet_Bidder
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-        var window: UIWindow?
+    var window: UIWindow?
 
-        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-            
-            //AppMonet Initialization
-            
-            let appMonetConfiguration = AppMonetConfigurations .configuration { (AppMonetConfigurations) in
-                AppMonetConfigurations?.applicationId = "3zeuyua"
-            }
-            AppMonet .initialize(appMonetConfiguration)
-            return true
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        //AppMonet Initialization
+
+        let appMonetConfiguration = AppMonetConfigurations.configuration { (AppMonetConfigurations) in
+            AppMonetConfigurations?.applicationId = "3zeuyua"
         }
+        AppMonet.initialize(appMonetConfiguration)
+        return true
     }
+}
 
 
