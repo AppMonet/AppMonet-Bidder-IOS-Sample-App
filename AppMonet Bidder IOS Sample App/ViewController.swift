@@ -10,6 +10,7 @@ import UIKit
 import AppMonet_Bidder
 
 class ViewController: UIViewController, AMBannerAdDelegate, AMInterstitialAdControllerDelegate {
+    @IBOutlet weak var mrectContainer: UIView!
     // AppMonet Ad View
     var adView = AMAppMonetAdView(adUnitId: "b03e6dccfe9e4abab02470a39c88d5dc", size: MONET_MEDIUM_RECT_SIZE)
     // AppMonet Interstitial
@@ -20,11 +21,11 @@ class ViewController: UIViewController, AMBannerAdDelegate, AMInterstitialAdCont
     override func viewDidLoad() {
         // AppMonet Ad View Setup
         self.adView?.delegate = self;
-        self.adView?.frame = CGRect(x: (self.view.bounds.size.width - MONET_MEDIUM_RECT_SIZE.width) / 2,
-                y: self.view.bounds.size.height - MONET_MEDIUM_RECT_SIZE.height,
+        self.adView?.frame = CGRect(x: 0,
+                y: 0,
                 width: MONET_MEDIUM_RECT_SIZE.width,
                 height: MONET_MEDIUM_RECT_SIZE.height)
-        self.view.addSubview(self.adView!)
+        self.mrectContainer.addSubview(self.adView!)
 
         //Interstitial Setup
         interstitial?.delegate = self
